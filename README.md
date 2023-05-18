@@ -5,4 +5,4 @@
 <p>- HTML</p>
 <p>- CSS</p>
 <p>- JavaScript</p>
-<h4>Link do projeto: https://project-god-of-war.netlify.app/](https://project-c6-bank.netlify.app/</h4>
+<h4>Link do projeto: https://project-c6-bank.netlify.app/</h4>
