@@ -14,11 +14,12 @@
     <header>
         <img src="./assets/logo.svg" alt="logo-c6-bank">
 
-        <nav>
+        <nav id="menu-list">
             <a class="link">Para você</a>
             <a class="link">Para seu negócio</a>
             <a class="btn-primary">ABRA SUA CONTA</a>
         </nav>
+        <img src="./assets/icon-menu.jpg" alt="icon-menu" class="menu-icon" onclick="showMenu()">
     </header>
 
     <main>
@@ -97,5 +98,18 @@
             </div>
         </section>
     </main>
+
+    <script>
+        const menuList = document.getElementById("menu-list")
+        menuList.style.maxHeight = "0px"
+
+        function showMenu(){
+            if(menuList.style.maxHeight == "0px"){
+                menuList.style.maxHeight = "90px"
+            } else{
+            menuList.style.maxHeight = "0px"
+        }
+        }
+    </script>
 </body>
 </html>
